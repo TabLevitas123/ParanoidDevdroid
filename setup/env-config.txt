@@ -1,0 +1,49 @@
+# .env
+
+# Application Settings
+ENVIRONMENT=development
+DEBUG=true
+APP_NAME="AI Agent Platform"
+SECRET_KEY="your-super-secret-key-here"
+
+# Database Settings
+DATABASE_URL="postgresql://user:password@localhost:5432/ai_platform"
+DATABASE_TEST_URL="postgresql://test_user:test_pass@localhost:5432/test_db"
+
+# Redis Settings
+REDIS_URL="redis://localhost:6379/0"
+
+# API Keys
+OPENAI_API_KEY="your-openai-api-key"
+ANTHROPIC_API_KEY="your-anthropic-api-key"
+STABILITY_API_KEY="your-stability-api-key"
+ELEVENLABS_API_KEY="your-elevenlabs-api-key"
+
+# Blockchain Settings
+WEB3_PROVIDER="http://localhost:8545"
+CONTRACT_ADDRESS="your-contract-address"
+TREASURY_ADDRESS="your-treasury-address"
+
+# Rate Limiting
+RATE_LIMIT_REQUESTS=100
+RATE_LIMIT_WINDOW=3600
+
+# Agent Settings
+MAX_AGENTS_PER_USER=10
+AGENT_TASK_TIMEOUT=300
+
+# Token Economics
+INITIAL_TOKEN_SUPPLY=1000000
+MIN_STAKE_AMOUNT=100
+
+# Marketplace Settings
+MARKETPLACE_FEE_PERCENTAGE=2.5
+MIN_LISTING_PRICE=1.0
+
+# Security
+JWT_ALGORITHM="HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Logging
+LOG_LEVEL="DEBUG"
+LOG_FORMAT="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
